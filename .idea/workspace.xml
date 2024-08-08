@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3f875d7-41c1-482f-9ae6-e41ce84c4b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/boom.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/clap.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/hihat.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/kick.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/openhat.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/ride.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/snare.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/tink.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/sounds/tom.wav" afterDir="false" />
+    <list default="true" id="b3f875d7-41c1-482f-9ae6-e41ce84c4b15" name="Changes" comment="task">
+      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Koprowy&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -60,47 +54,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.slider.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kryst/IdeaProjects/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (3).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (4).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.notekeep.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.slider.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kryst/IdeaProjects/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 1 - rozgrzewka" />
+      <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 6 - ball in the hole" />
       <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 3 - drumkit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Programowanie-w-Javascript---potok-niestacjonarny-2024" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.slider.html">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="notekeep.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 4 - notekeep/notekeep.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="slider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/slider.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 5 - async add">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.slider.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.slider.html" />
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.notekeep.html" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +144,49 @@
       <workItem from="1713335783031" duration="196000" />
       <workItem from="1713336012704" duration="62000" />
       <workItem from="1713378360603" duration="1032000" />
+      <workItem from="1714630663373" duration="1274000" />
+      <workItem from="1714817646852" duration="2583000" />
+      <workItem from="1714820830004" duration="538000" />
+      <workItem from="1716122930244" duration="1907000" />
+      <workItem from="1716127251626" duration="30000" />
+      <workItem from="1718908219749" duration="128000" />
+      <workItem from="1718908427281" duration="1247000" />
+      <workItem from="1719647695223" duration="3389000" />
+      <workItem from="1723135804242" duration="5218000" />
     </task>
+    <task id="LOCAL-00001" summary="task">
+      <option name="closed" value="true" />
+      <created>1714631908402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714631908402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task">
+      <option name="closed" value="true" />
+      <created>1714821279339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714821279340</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task">
+      <option name="closed" value="true" />
+      <created>1716124824890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716124824890</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task">
+      <option name="closed" value="true" />
+      <created>1718909612886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718909612886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +214,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task" />
+    <option name="LAST_COMMIT_MESSAGE" value="task" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Programowanie_w_Javascript___potok_niestacjonarny_2024$index_html__1_.dat" NAME="index.html (1) Coverage Results" MODIFIED="1723142282135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
