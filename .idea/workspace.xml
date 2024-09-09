@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f875d7-41c1-482f-9ae6-e41ce84c4b15" name="Changes" comment="task">
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 5 - async add/Funkcja asynchroniczna.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/jpg/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/jpg/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/jpg/slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/slider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 3 - drumkit/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 4 - notekeep/notekeep.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 4 - notekeep/notekeep.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 4 - notekeep/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 4 - notekeep/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 5 - async add/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,19 +66,20 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (3).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (4).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.notekeep.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.slider.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Funkcja asynchroniczna.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kryst/IdeaProjects/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kryst/IdeaProjects/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,6 +90,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 2 - slider" />
       <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 1 - rozgrzewka" />
       <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 6 - ball in the hole" />
       <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Programowanie-w-Javascript---potok-niestacjonarny-2024\Lab 3 - drumkit" />
@@ -88,20 +99,20 @@
       <recent name="C:\Users\kryst\IdeaProjects\Programowanie-w-Javascript---potok-niestacjonarny-2024\Programowanie-w-Javascript---potok-niestacjonarny-2024" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 1 - rozgrzewka/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 7 - canvas/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 6 - ball in the hole/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="notekeep.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 4 - notekeep/notekeep.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="slider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Programowanie-w-Javascript---potok-niestacjonarny-2024/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 2 - slider/slider.html" useBuiltInWebServerPort="true">
+    <configuration name="Funkcja asynchroniczna.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 5 - async add/Funkcja asynchroniczna.js" working-dir="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 5 - async add">
       <method v="2" />
     </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Programowanie-w-Javascript---potok-niestacjonarny-2024/Lab 5 - async add">
@@ -109,10 +120,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.slider.html" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.Funkcja asynchroniczna.js" />
         <item itemvalue="JavaScript Debug.notekeep.html" />
       </list>
     </recent_temporary>
@@ -153,6 +164,14 @@
       <workItem from="1718908427281" duration="1247000" />
       <workItem from="1719647695223" duration="3389000" />
       <workItem from="1723135804242" duration="5218000" />
+      <workItem from="1723142465888" duration="241000" />
+      <workItem from="1723222141594" duration="5178000" />
+      <workItem from="1723227378471" duration="1096000" />
+      <workItem from="1723228496283" duration="5683000" />
+      <workItem from="1723490256965" duration="2111000" />
+      <workItem from="1725468079549" duration="4667000" />
+      <workItem from="1725864888675" duration="2316000" />
+      <workItem from="1725901027288" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="task">
       <option name="closed" value="true" />
@@ -186,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718909612886</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task">
+      <option name="closed" value="true" />
+      <created>1723142671983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723142671983</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

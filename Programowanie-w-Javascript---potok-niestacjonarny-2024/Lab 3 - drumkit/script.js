@@ -1,73 +1,64 @@
-// Mapowanie klawiszy na pliki dźwiękowe
-const keyToSound = {
-    '65': 'clap.wav',   // klawisz 'A'
-    '83': 'kick.wav',   // klawisz 'S'
-    '68': 'hihat.wav',  // klawisz 'D'
-    '70': 'tom.wav',    // klawisz 'F', przykładowy dźwięk
-};
-
-// Przechowywanie nagrań
-const channels = [[], [], [], []]; // Załóżmy, że to są nasze kanały
-let currentChannel = 0;
 let isRecording = false;
-let recordingStartTime;
+let currentChannel = null;
+let channels = [[], [], [], []];
+let startTime = 0;
 
-// Inicjalizacja dźwięków
-document.addEventListener('keydown', event => {
-    const key = event.keyCode.toString();
-    if (keyToSound[key]) {
-        playSound(key);
-        if (isRecording) {
-            channels[currentChannel].push({
-                sound: keyToSound[key],
-                time: Date.now() - recordingStartTime
-            });
-        }
-    }
-});
+function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
-function playSound(keyCode) {
-    const soundFile = keyToSound[keyCode];
-    if (!soundFile) return;
-    const audio = new Audio(`./sounds/${soundFile}`);
+    if (!audio) return;
+
+    // Odtwarzanie dźwięku
+    audio.currentTime = 0;
     audio.play();
-    const keyElement = document.querySelector(`div[data-key="${keyCode}"]`);
-    keyElement.classList.add('active');
-    setTimeout(() => keyElement.classList.remove('active'), 200);
+    key.classList.add('playing');
+
+    if (isRecording && currentChannel !== null) {
+        const time = Date.now() - startTime;
+        channels[currentChannel].push({ keyCode: e.keyCode, time });
+    }
 }
 
-function playAllChannels() {
-    channels.forEach(channel => {
-        channel.forEach(note => {
-            setTimeout(() => {
-                playSound(note.sound);
-            }, note.time);
-        });
+function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    this.classList.remove('playing');
+}
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+window.addEventListener('keydown', playSound);
+
+function startRecording(channelIndex) {
+    isRecording = true;
+    currentChannel = channelIndex;
+    startTime = Date.now();
+    channels[currentChannel] = []; // Reset kanału
+    console.log(`Rozpoczęto nagrywanie kanału ${channelIndex + 1}`);
+}
+
+function stopRecording() {
+    isRecording = false;
+    currentChannel = null;
+    console.log("Nagrywanie zatrzymane");
+}
+
+function playChannel(channelIndex) {
+    console.log(`Odtwarzanie kanału ${channelIndex + 1}`);
+    channels[channelIndex].forEach(note => {
+        setTimeout(() => {
+            const audio = document.querySelector(`audio[data-key="${note.keyCode}"]`);
+            if (audio) {
+                audio.currentTime = 0;
+                audio.play();
+            }
+        }, note.time);
     });
 }
 
-// Logika do rozpoczęcia nagrywania
-function startRecording(channel) {
-    isRecording = true;
-    currentChannel = channel;
-    channels[currentChannel] = [];
-    recordingStartTime = Date.now();
+function playAllChannels() {
+    console.log("Odtwarzanie wszystkich kanałów");
+    channels.forEach((channel, index) => {
+        playChannel(index);
+    });
 }
-
-// Przykładowe użycie:
-// startRecording(0); // Rozpocznij nagrywanie na kanale 0
-
-// Aby zainicjować interakcję z klawiszami myszy:
-document.getElementById('keys').addEventListener('click', (event) => {
-    const keyElement = event.target;
-    const keyCode = keyElement.dataset.key;
-    if (keyCode) {
-        playSound(keyCode);
-        if (isRecording) {
-            channels[currentChannel].push({
-                sound: keyToSound[keyCode],
-                time: Date.now() - recordingStartTime
-            });
-        }
-    }
-});

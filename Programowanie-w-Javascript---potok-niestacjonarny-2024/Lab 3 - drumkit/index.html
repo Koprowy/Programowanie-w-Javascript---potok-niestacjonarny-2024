@@ -2,32 +2,47 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Drum Kit</title>
-    <style>
-        .key {
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-            display: inline-block;
-            border: 1px solid black;
-            text-align: center;
-            line-height: 100px;
-            font-size: 20px;
-            cursor: pointer;
-        }
-        .active {
-            background-color: yellow;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automat Perkusyjny - Nagrywanie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="keys">
-    <div class="key" data-key="65">A</div>
-    <div class="key" data-key="83">S</div>
-    <div class="key" data-key="68">D</div>
-    <div class="key" data-key="70">F</div>
+<div class="drum-kit">
+    <div data-key="65" class="key">
+        <span>A - Kick</span>
+        <audio data-key="65" src="sounds/kick.wav"></audio>
+    </div>
+    <div data-key="83" class="key">
+        <span>S - Snare</span>
+        <audio data-key="83" src="sounds/snare.wav"></audio>
+    </div>
+    <div data-key="68" class="key">
+        <span>D - Hi-Hat</span>
+        <audio data-key="68" src="sounds/hihat.wav"></audio>
+    </div>
+    <div data-key="70" class="key">
+        <span>F - Clap</span>
+        <audio data-key="70" src="sounds/clap.wav"></audio>
+    </div>
 </div>
-<button onclick="playAllChannels()">Odtwórz wszystko</button>
+
+<div class="recording">
+    <p>Nagrywanie</p>
+    <button onclick="startRecording(0)">Kanał1</button>
+    <button onclick="startRecording(1)">Kanał 2</button>
+    <button onclick="startRecording(2)">Kanał 3</button>
+    <button onclick="startRecording(3)">Kanał 4</button>
+    <button onclick="stopRecording()">Zatrzymaj Nagrywanie</button>
+</div>
+<div class="playback">
+    <p>Odtwarzanie</p>
+    <button onclick="playChannel(0)">Kanał 1</button>
+    <button onclick="playChannel(1)">Kanał 2</button>
+    <button onclick="playChannel(2)">Kanał 3</button>
+    <button onclick="playChannel(3)">Kanał 4</button>
+    <button onclick="playAllChannels()">Odtwórz Wszystkie</button>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>

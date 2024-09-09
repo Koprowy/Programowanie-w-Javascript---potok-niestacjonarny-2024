@@ -3,31 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ball in the Hole</title>
+    <title>Kulka i dziura</title>
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+        body, html {
             margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
-        canvas {
-            border: 1px solid black;
+        #gameCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: lightgray;
         }
-        #records {
-            margin-top: 20px;
+        #timer {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            color: black;
         }
     </style>
 </head>
 <body>
-<canvas id="gameCanvas" width="600" height="400"></canvas>
-<button onclick="resetGame()">Reset</button>
-<div id="records">
-    <h3>Records</h3>
-    <ul id="recordList"></ul>
-</div>
-<script src="index.js"></script>
+<canvas id="gameCanvas"></canvas>
+<div id="timer">Czas: 0</div>
+<script src="script.js"></script>
 </body>
 </html>

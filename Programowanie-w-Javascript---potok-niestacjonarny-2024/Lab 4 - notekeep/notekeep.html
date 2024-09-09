@@ -2,31 +2,25 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>NotePocket - Zarządzanie Notatkami</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePocket - Hobbit</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>NotePocket</h1>
-<form id="noteForm">
-    <input type="text" id="title" placeholder="Tytuł notatki" required><br>
-    <textarea id="content" placeholder="Treść notatki" required></textarea><br>
-    <input type="color" id="color" value="#ff0000"><br>
-    <label><input type="checkbox" id="pin"> Przypnij notatkę</label><br>
-    <button type="submit">Dodaj notatkę</button>
-</form>
-<table id="notesTable">
-    <thead>
-    <tr>
-        <th>Tytuł</th>
-        <th>Treść</th>
-        <th>Kolor</th>
-        <th>Przypięte</th>
-        <th>Data utworzenia</th>
-    </tr>
-    </thead>
-    <tbody id="notesContainer">
-    <!-- Notatki zostaną tutaj dodane -->
-    </tbody>
-</table>
+<div class="app">
+    <h1>NotePocket</h1>
+    <form id="note-form">
+        <input type="text" id="note-title" placeholder="Tytuł notatki" required>
+        <textarea id="note-content" placeholder="Treść notatki" required></textarea>
+        <input type="color" id="note-color" value="#ffeb3b">
+        <label>
+            <input type="checkbox" id="note-pin"> Przypnij notatkę
+        </label>
+        <button type="submit">Dodaj notatkę</button>
+    </form>
+
+    <div class="notes-list" id="notes-list"></div>
+</div>
 
 <script src="script.js"></script>
 </body>
